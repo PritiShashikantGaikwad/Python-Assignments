@@ -1,0 +1,35 @@
+import threading
+
+def EvenFactor(no):
+    iSum=0
+    print("inside even function :")
+    for i in range(1,no+1):
+     
+        if(i %2==0):
+            iSum=iSum+i
+    print("Addition of even number is:",iSum)
+
+def OddFactor(no):
+    
+    print("inside odd function :")
+    iSum=0
+    for i in range(1,no+1):
+        if(i %2==1):
+            iSum=iSum+i
+    print("Addition of odd number is:",iSum)        
+        
+
+def main():
+    print("print inside main")
+   
+    t1=threading.Thread(target=EvenFactor,args=(20,))
+    t2=threading.Thread(target=OddFactor,args=(20,))
+    
+    t1.start()
+    t2.start()
+    t1.join()
+    t2.join()
+    print("exit from main")
+
+if __name__=="__main__":
+    main()  
