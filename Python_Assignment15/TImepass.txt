@@ -1,0 +1,18 @@
+import os
+import sys
+
+def CopyContent(sourceFile,DestFile):
+    fobj=open(sourceFile,"r")
+    obj2=open(DestFile,'w')
+    for line in fobj.read():
+        
+        obj2.write(line)
+
+
+def main():
+    FileName=sys.argv[1]
+    FileName2=sys.argv[2]
+    CopyContent(FileName,FileName2)
+
+if __name__=="__main__":
+    main()
