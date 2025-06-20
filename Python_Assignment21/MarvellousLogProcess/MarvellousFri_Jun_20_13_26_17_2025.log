@@ -1,0 +1,14 @@
+********************************************************************************
+This is automation Script This file is created at:Fri Jun 20 13:26:17 2025
+********************************************************************************
+psutil.Process(pid=7952, name='Code.exe', status='running', started='12:29:37')
+psutil.Process(pid=11776, name='Code.exe', status='running', started='12:29:30')
+psutil.Process(pid=13656, name='Code.exe', status='running', started='12:29:31')
+psutil.Process(pid=16392, name='Code.exe', status='running', started='12:29:32')
+psutil.Process(pid=16552, name='Code.exe', status='running', started='12:29:36')
+psutil.Process(pid=19296, name='Code.exe', status='running', started='12:29:31')
+psutil.Process(pid=21752, name='Code.exe', status='running', started='12:29:32')
+psutil.Process(pid=22076, name='Code.exe', status='running', started='12:29:31')
+psutil.Process(pid=22412, name='Code.exe', status='running', started='12:29:31')
+psutil.Process(pid=22760, name='Code.exe', status='running', started='12:29:32')
+********************************************************************************
